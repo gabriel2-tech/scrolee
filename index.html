@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scrole — L'application des geeks & otakus d'Afrique</title>
     <meta name="description"
-        content="Scrole est l'application des geeks et otakus d'Afrique : anime, manga, comics, gaming, cosplay, événements et communautés. Le programme bêta a atteint son nombre maximal de testeurs — le lancement officiel est prévu le 30 septembre 2026.">
+        content="Scrole est l'application des geeks et otakus d'Afrique : anime, manga, comics, gaming, cosplay, événements et communautés. La phase bêta est terminée — disponible pour tout le monde vers le 15 octobre 2026, après validation sur Google Play.">
     <link rel="icon" type="image/png" href="data:image/png;base64,PLACEHOLDER">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -650,7 +650,7 @@
             max-width: 600px;
         }
 
-        /* Bêta — devenu "Merci" */
+        /* Section "Merci" */
         .thanks-panel {
             border: 1px solid var(--border);
             border-radius: 16px;
@@ -771,13 +771,12 @@
                     <circle cx="12" cy="16" r="1" fill="#f97316" />
                 </svg>
                 <div>
-                    <p><b>Mise à jour sur le lancement :</b> suite à notre première phase de test bêta, plusieurs
-                        dizaines de bugs techniques nous ont été remontés. Afin de vous livrer une application solide
-                        et aboutie, nous avons décidé de reporter la sortie officielle de Scrole au
-                        <b>30 septembre 2026</b>. Merci de votre compréhension.</p>
-                    <p class="notice-thanks">Un immense merci à tous les bêta-testeurs de cette première phase, ainsi
-                        qu'à toutes celles et ceux qui nous soutiennent, de près ou de loin, dans cette aventure.
-                        Votre engagement fait toute la différence. 💙</p>
+                    <p><b>La phase bêta est terminée.</b> Scrole sera disponible pour tout le monde
+                        <b>d'ici environ 14 jours</b>, le temps de finaliser les tests et la validation sur
+                        Google Play.</p>
+                    <p class="notice-thanks">Un immense merci à tous les bêta-testeurs, ainsi qu'à toutes celles et
+                        ceux qui nous soutiennent, de près ou de loin, dans cette aventure. Votre engagement fait
+                        toute la différence. 💙</p>
                 </div>
             </div>
         </div>
@@ -812,7 +811,7 @@
                         <a href="#constat" class="btn btn-outline">Découvrir Scrole</a>
                     </div>
 
-                    <div class="countdown-box" id="countdown">
+                    <div class="countdown-box" id="countdown" aria-label="Compte à rebours avant le lancement">
                         <div class="cd-unit">
                             <div class="cd-num" id="cd-days">00</div>
                             <div class="cd-label">Jours</div>
@@ -830,8 +829,8 @@
                             <div class="cd-label">Sec</div>
                         </div>
                     </div>
-                    <p class="launch-note">Lancement officiel le <b>30 septembre 2026</b> — sur Android et en version
-                        Web.</p>
+                    <p class="launch-note" id="launch-note">Bêta terminée — disponible pour tous vers le
+                        <b>15 octobre 2026</b>, sur Google Play (Android) et en version Web.</p>
                 </div>
 
                 <div class="hero-art">
@@ -1170,19 +1169,19 @@
                     <div class="faq-item">
                         <button class="faq-q">Quand Scrole sera-t-il disponible ?<span class="plus">+</span></button>
                         <div class="faq-a">
-                            <div class="faq-a-inner">Le lancement officiel est prévu le 30 septembre 2026, sur
-                                Android et iPhone. Ce report par rapport à la date initiale nous permet de corriger
-                                les bugs identifiés lors de la première phase de test bêta.</div>
+                            <div class="faq-a-inner">La phase bêta est terminée. Scrole sera ouvert à tout le monde
+                                d'ici environ 14 jours, soit vers le 15 octobre 2026, sur Google Play (Android) et en
+                                version Web. Ce délai correspond au temps nécessaire pour finaliser les derniers tests
+                                et obtenir la validation de Google Play.</div>
                         </div>
                     </div>
                     <div class="faq-item">
                         <button class="faq-q">Puis-je encore rejoindre le programme bêta ?<span
                                 class="plus">+</span></button>
                         <div class="faq-a">
-                            <div class="faq-a-inner">Le programme bêta a atteint son nombre maximal de testeurs et
-                                les inscriptions sont closes pour cette phase. Merci à toutes les personnes qui ont
-                                manifesté leur intérêt : rendez-vous le 30 septembre 2026 pour l'ouverture au grand
-                                public.</div>
+                            <div class="faq-a-inner">Non, le programme bêta est terminé et les inscriptions sont
+                                closes. Merci à toutes les personnes qui ont manifesté leur intérêt : l'application
+                                sera bientôt accessible à tout le monde.</div>
                         </div>
                     </div>
                     <div class="faq-item">
@@ -1205,19 +1204,18 @@
             </div>
         </section>
 
-        <!-- MERCI — anciennement le formulaire bêta -->
+        <!-- MERCI -->
         <section id="beta">
             <div class="wrap">
                 <div class="thanks-panel reveal">
                     <div id="lottie-thanks" role="img" aria-label="Animation de remerciement"></div>
-                    <span class="eyebrow">Programme bêta</span>
+                    <span class="eyebrow">Bêta terminée</span>
                     <h2>Merci pour votre engagement 💙</h2>
-                    <p>Le programme bêta de Scrole a atteint son nombre maximal de testeurs. Nous ne pouvons
-                        malheureusement plus accepter de nouvelles inscriptions pour cette phase — mais l'intérêt que
-                        vous avez montré pour Scrole nous touche énormément et nourrit chaque décision que nous
-                        prenons pour la suite.</p>
+                    <p>La phase bêta de Scrole est terminée. Grâce à vos retours, l'application est prête pour sa
+                        dernière étape : la validation sur Google Play. Dans environ 14 jours, elle sera disponible
+                        pour tout le monde.</p>
                     <div class="launch-pill">
-                        📅 Lancement officiel le <b>30 septembre 2026</b>
+                        📅 Disponible pour tous vers le <b>15 octobre 2026</b>
                     </div>
                     <div class="thanks-actions">
                         <a href="#features" class="btn btn-primary">Découvrir les fonctionnalités</a>
@@ -1264,7 +1262,7 @@
             </div>
             <div class="footer-bottom">
                 <span>© 2026 Scrole. Tous droits réservés.</span>
-                <span>Lancement officiel — 30 septembre 2026</span>
+                <span>Disponible pour tous vers le 15 octobre 2026</span>
             </div>
         </div>
     </footer>
@@ -1272,9 +1270,9 @@
     <script>
         var REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        /* Countdown */
+        /* Compte à rebours — date cible : 15 octobre 2026 (modifiable ici) */
         (function () {
-            var target = new Date('2026-09-30T00:00:00');
+            var target = new Date('2026-10-15T00:00:00');
             var days = document.getElementById('cd-days'), hours = document.getElementById('cd-hours'),
                 mins = document.getElementById('cd-mins'), secs = document.getElementById('cd-secs');
             function pad(n) { return String(n).padStart(2, '0'); }
@@ -1336,13 +1334,9 @@
         })();
 
         /* ═══════════════════════════════════════════════════════════════
-           Animations Lottie — auto-hébergées (aucune dépendance externe),
-           en remplacement des visuels 3D.
+           Animations Lottie — auto-hébergées (aucune dépendance externe)
            ═══════════════════════════════════════════════════════════════ */
 
-        // Badge orbital (héros) : cœur indigo qui pulse, anneau orange,
-        // trois points en orbite — symbolise la communauté qui gravite
-        // autour de l'application.
         var ORBIT_BADGE = {
             "v": "5.9.6", "fr": 30, "ip": 0, "op": 90, "w": 200, "h": 200, "nm": "orbit-badge", "ddd": 0, "assets": [],
             "layers": [
@@ -1418,8 +1412,6 @@
             ]
         };
 
-        // Confettis (section "Merci") : six pièces qui éclatent en étoile
-        // et se répètent en boucle douce.
         function confettiLayer(ind, dx, dy, color, stagger) {
             return {
                 "ddd": 0, "ind": ind, "ty": 4, "nm": "confetti" + ind, "sr": 1,
